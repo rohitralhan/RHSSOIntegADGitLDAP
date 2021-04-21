@@ -80,7 +80,7 @@
 <li>Once you the scree reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
 </ol>
 </ol>
-<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-users.png" alt="Sync All Users" /></p>
+<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-all.png" alt="Sync All Users" /></p>
 <ol>
 <li>In the left hand pane click <strong>Users</strong> and click <strong>View all users </strong>on the screen that appears on the right pane this will list all the users that have been synchronized with RH SSO.</li>
 <li>Log out and login back with a user synced with RH SSO and the user should be able to login as get an unauthorized error. This indicates that the user login is successfull but the user does not have the appropriate access rights.</li>
