@@ -1,5 +1,3 @@
-<h1>&nbsp;</h1>
-<h1>&nbsp;</h1>
 <h1>RH SSO Integration with MS AD, GitHub</h1>
 <p>Table of Contents</p>
 <ul>
@@ -25,9 +23,11 @@
 <ul>
 <li>Login to RH SSO</li>
 <li>Navigate to you Realm (dropdown on the the top left of the page)</li>
-<li>In the left hand panel click <strong>User Fedration</strong></li>
-<li><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" alt="User Fedration" /></li>
-<li>Provide the AD configuration details as shown in <a href="https://geekprank.com/chat-screenshot/" rel="nofollow">the screenshot</a> and click <strong>Save.</strong></li>
+<li>In the navigation panel click <strong>User Fedration</strong></li><br>
+<p>
+  <img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" alt="User Fedration" />
+  </p><br>
+<li>Provide the AD configuration details as shown in the screenshot and click <strong>Save.</strong></li>
 
 <table style="width: 100%; height: 216px;" border="1" cellspacing="0" cellpadding="0">
 <tbody>
@@ -77,11 +77,11 @@
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
 <ul>
-<li>Once you the scree reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
+<li>Once you the screen reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-all.png" alt="Sync All Users" /></p>
 <ul>
-<li>In the left hand pane click <strong>Users</strong> and click <strong>View all users </strong>on the screen that appears on the right pane this will list all the users that have been synchronized with RH SSO.</li>
+<li>In the navigation pane click <strong>Users</strong> and click <strong>View all users </strong>on the screen that appears on the right pane this will list all the users that have been synchronized with RH SSO.</li>
 <li>Log out and login back with a user synced with RH SSO and the user should be able to login as get an unauthorized error. This indicates that the user login is successfull but the user does not have the appropriate access rights.</li>
 </ul>
 <h2 id="_rhssogithubint">RH SSO &amp; GitHub Integration</h2>
@@ -124,7 +124,7 @@
 
 <ul>
 <li>Login to RH SSO</li>
-<li>On the left hand panel select the Identity Provider &amp; select Github as the provider. Copy the client id and client secret generated above from GitHub and past it here.</li>
+<li>On the navigation panel select the Identity Provider &amp; select Github as the provider. Copy the client id and client secret generated above from GitHub and past it here.</li>
 </ul>
 
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/idp.png" alt="IDP" /></p>
