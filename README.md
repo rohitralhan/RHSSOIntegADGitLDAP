@@ -1,5 +1,3 @@
-<h1>&nbsp;</h1>
-<h1>&nbsp;</h1>
 <h1>RH SSO Integration with MS AD, GitHub</h1>
 <p>Table of Contents</p>
 <ul>
