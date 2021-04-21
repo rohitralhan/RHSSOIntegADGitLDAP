@@ -76,7 +76,7 @@
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
 <ul>
-<li>Once you the screen reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
+<li>Once the screen reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-all.png" alt="Sync All Users" /></p>
 <ul>
@@ -119,7 +119,7 @@
 </table>
 
 </ul>
-<h3 id="_rhssogithub">RH SSO &amp; GitHub Configuration</h3>
+<h3 id="_rhssogithub">RH SSO &amp; Configuration</h3>
 
 <ul>
 <li>Login to RH SSO</li>
