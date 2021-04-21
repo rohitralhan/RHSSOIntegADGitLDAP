@@ -1,3 +1,5 @@
+<h1>&nbsp;</h1>
+<h1>&nbsp;</h1>
 <h1>RH SSO Integration with MS AD, GitHub</h1>
 <p>Table of Contents</p>
 <ul>
@@ -20,14 +22,12 @@
 <li>Access to GitHub Account</li>
 </ul>
 <h2 id="_rhssoad">RH SSO &amp; Microsoft AD Configuration</h2>
-<ol>
-<ol>
+<ul>
 <li>Login to RH SSO</li>
 <li>Navigate to you Realm (dropdown on the the top left of the page)</li>
 <li>In the left hand panel click <strong>User Fedration</strong></li>
 <li><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" alt="User Fedration" /></li>
 <li>Provide the AD configuration details as shown in <a href="https://geekprank.com/chat-screenshot/" rel="nofollow">the screenshot</a> and click <strong>Save.</strong></li>
-<li>&nbsp;</li>
 <li>
 <table style="width: 100%; height: 216px;" border="1" cellspacing="0" cellpadding="0">
 <tbody>
@@ -74,23 +74,26 @@
 </tbody>
 </table>
 </li>
-</ol>
-</ol>
+</ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
-<ol>
-<ol>
+<ul>
 <li>Once you the scree reloads scroll to the bottom and click <strong>Synchronize all users</strong> button. This will synchronize all the user from AD and you should see a message similar to the one below.</li>
-</ol>
-</ol>
+</ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/sync-all.png" alt="Sync All Users" /></p>
-<ol>
+<ul>
 <li>In the left hand pane click <strong>Users</strong> and click <strong>View all users </strong>on the screen that appears on the right pane this will list all the users that have been synchronized with RH SSO.</li>
 <li>Log out and login back with a user synced with RH SSO and the user should be able to login as get an unauthorized error. This indicates that the user login is successfull but the user does not have the appropriate access rights.</li>
-</ol>
+</ul>
 <h2 id="_rhssogithubint">RH SSO &amp; GitHub Integration</h2>
 <h3>GitHub Configuration</h3>
-<ol>
-<li>Under developer settings:(<a class="ex ks" href="https://github.com/settings/developers" rel="noopener nofollow">https://github.com/settings/developers</a>).</li>
+<ul>
+<ul>
+<li>Under developer settings:(<a class="ex ks" href="https://github.com/settings/developers" rel="noopener nofollow">https://github.com/settings/developers</a>)</li>
+</ul>
+</ul>
+<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/dev-settings.png" alt="Git Hub Dev Settings" /></p>
+<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/github-app.png" alt="GitHub App" /></p>
+<ul>
 <li>Click on&nbsp;<strong class="gk kt">New Oauth App:</strong> (name anything as per your use-case). You will see a client id and client secret generated for your application.</li>
 <li>Keep a note of the client secret.</li>
 <li>Provide the Authorization callback URL from RH SSO (instructions in RH SSO &amp; GitHub configuration below) and click register application.&nbsp;</li>
@@ -116,10 +119,17 @@
 </tbody>
 </table>
 </li>
-</ol>
+</ul>
 <h3 id="_rhssogithub">RH SSO &amp; GitHub Configuration</h3>
-<ol>
+<ul>
+<ul>
 <li>Login to RH SSO</li>
 <li>On the left hand panel select the Identity Provider &amp; select Github as the provider. Copy the client id and client secret generated above from GitHub and past it here.</li>
-<li>Copy the Redirect URL from here and use it in GitHub as mentioned in step 4 above Authorization callback URL.</li>
-</ol>
+</ul>
+</ul>
+<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/idp.png" alt="IDP" /></p>
+<ul>
+<li>Copy the Redirect URL from here and use it in GitHub as mentioned in step 4 above Authorization callback URL</li>
+<li>Logout of RH SSO. It will take you back to the RH SSO Login Screen. Here you should see an additional option <strong>GitHub</strong> for login.</li>
+</ul>
+<p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/login-rhsso.png" alt="GitHub Login" /></p>
