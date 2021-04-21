@@ -28,7 +28,7 @@
 <li>In the left hand panel click <strong>User Fedration</strong></li>
 <li><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" alt="User Fedration" /></li>
 <li>Provide the AD configuration details as shown in <a href="https://geekprank.com/chat-screenshot/" rel="nofollow">the screenshot</a> and click <strong>Save.</strong></li>
-<li>
+
 <table style="width: 100%; height: 216px;" border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr style="background-color: #90c78f; color: #000000;">
@@ -73,7 +73,7 @@
 </tr>
 </tbody>
 </table>
-</li>
+
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
 <ul>
@@ -85,7 +85,7 @@
 <li>Log out and login back with a user synced with RH SSO and the user should be able to login as get an unauthorized error. This indicates that the user login is successfull but the user does not have the appropriate access rights.</li>
 </ul>
 <h2 id="_rhssogithubint">RH SSO &amp; GitHub Integration</h2>
-<h3>GitHub Configuration</h3>
+<h3 id="_githubconf">GitHub Configuration</h3>
 <ul>
 <ul>
 <li>Under developer settings:(<a class="ex ks" href="https://github.com/settings/developers" rel="noopener nofollow">https://github.com/settings/developers</a>)</li>
@@ -121,12 +121,12 @@
 </li>
 </ul>
 <h3 id="_rhssogithub">RH SSO &amp; GitHub Configuration</h3>
-<ul>
+
 <ul>
 <li>Login to RH SSO</li>
 <li>On the left hand panel select the Identity Provider &amp; select Github as the provider. Copy the client id and client secret generated above from GitHub and past it here.</li>
 </ul>
-</ul>
+
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/idp.png" alt="IDP" /></p>
 <ul>
 <li>Copy the Redirect URL from here and use it in GitHub as mentioned in step 4 above Authorization callback URL</li>
