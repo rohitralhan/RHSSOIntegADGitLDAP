@@ -28,9 +28,9 @@
 	<li>Login to RH SSO</li>
 	<li>Navigate to you Realm (dropdown on the the top left of the page)</li>
 	<li>In the left hand panel click <strong>User Fedration</strong></li>
-	<li><img alt="User Fedration" src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" /></li>
+	<img alt="User Fedration" src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/rhsso-user-fedration.png" />
 	<li>Provide the AD configuration details as shown in the screenshot</li>
-	<li><img alt="User Fedration" src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" />/li>
+	<img alt="User Fedration" src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" />
 </ol>
 
 <h2>GitHub Configuration</h2>
