@@ -73,7 +73,6 @@
 </tr>
 </tbody>
 </table>
-
 </ul>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/ad-setup.png" alt="AD Setup" /></p>
 <ul>
@@ -86,18 +85,18 @@
 </ul>
 <h2 id="_rhssogithubint">RH SSO &amp; GitHub Integration</h2>
 <h3 id="_githubconf">GitHub Configuration</h3>
-<ul>
+
 <ul>
 <li>Under developer settings:(<a class="ex ks" href="https://github.com/settings/developers" rel="noopener nofollow">https://github.com/settings/developers</a>)</li>
 </ul>
-</ul>
+
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/dev-settings.png" alt="Git Hub Dev Settings" /></p>
 <p><img src="https://github.com/rohitralhan/RHSSOIntegADGitLDAP/blob/main/images/github-app.png" alt="GitHub App" /></p>
 <ul>
 <li>Click on&nbsp;<strong class="gk kt">New Oauth App:</strong> (name anything as per your use-case). You will see a client id and client secret generated for your application.</li>
 <li>Keep a note of the client secret.</li>
 <li>Provide the Authorization callback URL from RH SSO (instructions in RH SSO &amp; GitHub configuration below) and click register application.&nbsp;</li>
-<li>
+
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr style="background-color: #90c78f; color: #000000;">
@@ -118,7 +117,7 @@
 </tr>
 </tbody>
 </table>
-</li>
+
 </ul>
 <h3 id="_rhssogithub">RH SSO &amp; GitHub Configuration</h3>
 
